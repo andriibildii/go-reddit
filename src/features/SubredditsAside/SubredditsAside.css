@@ -1,0 +1,93 @@
+.subreddits-card ul,
+.subreddits-card ul li {
+    width: 100%;
+}
+
+.subreddits-card ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#categories-container,
+#subreddits-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-overflow: hidden;
+}
+
+#categories-container,
+#subreddits-container {
+    padding: var(--spacing1) var(--spacing00);
+}
+
+#categories-container > :first-child {
+    border-bottom: solid 1px var(--color-outline);
+}
+
+#categories-container li {
+    padding: var(--spacing1) 0;
+}
+
+#subreddits-container {
+    padding-top: 0;
+}
+
+#subreddit-link {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: var(--color-text-main);
+}
+
+#subreddit-link > :first-child,
+#subreddit-link-selected > :first-child {
+    margin-right: var(--spacing0);
+	border: solid 1px var(--color-details);
+    border-radius: var(--radius4);
+}
+
+.asideErrorMessage {
+    color: var(--color-highlight);
+    margin: var(--spacing2);
+}
+
+@media only screen and (max-width: 768px) {
+    .subreddits-card {
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .subreddits-card ul li {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #categories-container {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    #subreddits-container {
+        align-items: center;
+    }
+
+    #categories-container > :first-child {
+        border-bottom: 0;
+    }
+
+    #categories-container li {
+        padding: 0;
+    }
+}
+
+#home-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

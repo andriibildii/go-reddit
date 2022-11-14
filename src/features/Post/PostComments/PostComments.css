@@ -1,0 +1,59 @@
+.comments-container {
+    border-top: solid 1px var(--color-outline);
+}
+
+.comments-btn,
+.show-btn {
+    font-size: var(--font-size4);
+    color: var(--color-highlight);
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.comments-btn {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: var(--spacing1) var(--spacing2);
+}
+
+.comments-btn > :first-child {
+    width: 16px;
+    height: 16px;
+    margin-right: var(--spacing0);
+}
+
+.show-container {
+    border-top: solid 1px var(--color-outline);
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-container button {
+    padding: 8px;
+}
+
+.show-btn {
+    margin: 0 auto var(--spacing2) auto;
+}
+
+.show-btn:hover {
+    background: var(--active-color);
+    border-radius: var(--radius4);
+    transition: 0.2s;
+}
+
+.show-bt-icon {
+    margin-right: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    .comments-btn {
+        width: 93%;
+    }
+}

@@ -1,0 +1,69 @@
+#app-container {
+    background-color: var(--color-bg);
+    color: var(--color-text-main);
+    min-height: 100vh;
+    color: var(--color-text-main);
+}
+
+h1 {
+    font-size: var(--font-size0);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: var(--font-size1);
+    font-weight: 700;
+    margin-bottom: var(--spacing1);
+}
+
+h3 {
+    font-size: var(--font-size2);
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.25rem;
+}
+
+button {
+    border: 0;
+    padding: 0;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size2);
+    color: var(--color-highlight);
+    background: none;
+    padding: var(--spacing1) var(--spacing2);
+    border-radius: var(--radius4);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    background: var(--active-color);
+    transition: 0.2s;
+}
+
+.nav-link.selected {
+    background: var(--active-color);
+    transition: 0.2s;
+}
+
+.nav-link:active {
+    background: var(--color-outline);
+}
+
+.nav-link > :first-child {
+    width: 24px;
+    height: 24px;
+    margin-right: var(--spacing0);
+}
