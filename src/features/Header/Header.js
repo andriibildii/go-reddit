@@ -16,7 +16,10 @@ const Header = () => {
                 <Search className="search-component" />
             </div>
             <div id="header-contacts">
-                <a href="#" className="github-link">
+                <a
+                    href="https://github.com/andriibildii/go-reddit"
+                    className="github-link"
+                >
                     <AiFillGithub />
                 </a>
             </div>

@@ -2,18 +2,18 @@
 
 That project was made by using Reddit's API with React & Redux.
 
-
-**Link to project:** [https://#](https:#)
+**Link to project:** [https://go-reddit.netlify.app/](https://go-reddit.netlify.app/)
 
 ![Screenshot of Mini-Reddit](./public/screenshot.png)
 
 ---
 
 ## Technologies used
-- React
-- Redux Toolkit
-- React Router
-- Fetch API
+
+-   React
+-   Redux Toolkit
+-   React Router
+-   Fetch API
 
 ---
 
