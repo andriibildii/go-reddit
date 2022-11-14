@@ -88,7 +88,6 @@ export const postSlice = createSlice({
                 state.posts.map(post => {
                     post.showingComments = false;
                     post.comments = [];
-                    post.commentsNum = 3;
                     post.isLoadingComments = false;
                     return post;
                 });
@@ -109,7 +108,6 @@ export const postSlice = createSlice({
                 state.posts.map(post => {
                     post.showingComments = false;
                     post.comments = [];
-                    post.commentsNum = 3;
                     post.isLoadingComments = false;
                     return post;
                 });
@@ -131,7 +129,6 @@ export const postSlice = createSlice({
                 state.posts.map(post => {
                     post.showingComments = false;
                     post.comments = [];
-                    post.commentsNum = 3;
                     post.isLoadingComments = false;
                     return post;
                 });
@@ -169,7 +166,6 @@ export const postSlice = createSlice({
                 state.posts.map(post => {
                     post.showingComments = false;
                     post.comments = [];
-                    post.commentsNum = 3;
                     return post;
                 });
                 state.isLoading = false;

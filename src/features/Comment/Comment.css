@@ -37,3 +37,7 @@
     color: var(--color-text-main);
     font-size: var(--font-size4);
 }
+
+.comment-text p {
+    line-height: 18px;
+}
